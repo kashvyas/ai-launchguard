@@ -1,0 +1,26 @@
+{
+  "campaign-copilot-v17": {
+    "name": "campaign-copilot-v17",
+    "owner": "Growth AI",
+    "rai_status": "PASS",
+    "rollback_ready": true,
+    "monitoring_ready": true,
+    "requested_rollout_pct": 100
+  },
+  "cx-agent-v9": {
+    "name": "cx-agent-v9",
+    "owner": "Customer Experience AI",
+    "rai_status": "CONDITIONAL",
+    "rollback_ready": true,
+    "monitoring_ready": true,
+    "requested_rollout_pct": 100
+  },
+  "internal-dev-agent-v3": {
+    "name": "internal-dev-agent-v3",
+    "owner": "Developer Productivity",
+    "rai_status": "PASS",
+    "rollback_ready": false,
+    "monitoring_ready": true,
+    "requested_rollout_pct": 25
+  }
+}

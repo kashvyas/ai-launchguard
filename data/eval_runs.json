@@ -1,0 +1,20 @@
+{
+  "campaign-copilot-v17": {
+    "task_success": 0.94,
+    "critical_error_rate": 0.01,
+    "regression_rate": 0.02,
+    "eval_version": "golden-2026-09-10"
+  },
+  "cx-agent-v9": {
+    "task_success": 0.93,
+    "critical_error_rate": 0.01,
+    "regression_rate": 0.01,
+    "eval_version": "golden-2026-09-10"
+  },
+  "internal-dev-agent-v3": {
+    "task_success": 0.88,
+    "critical_error_rate": 0.01,
+    "regression_rate": 0.02,
+    "eval_version": "golden-2026-09-10"
+  }
+}

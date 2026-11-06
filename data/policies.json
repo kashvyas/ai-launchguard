@@ -1,0 +1,27 @@
+[
+  {
+    "id": "POL-QUALITY-01",
+    "title": "AI Release Quality Gate",
+    "text": "A production AI feature may ship broadly only when task success is at least 0.90, critical-error rate is at most 0.02, and the golden-set regression rate is at most 0.03. Missing critical metrics fail closed."
+  },
+  {
+    "id": "POL-RAI-02",
+    "title": "Responsible AI Release Gate",
+    "text": "Broad release requires Responsible AI review status PASS. Any BLOCKED or MISSING review requires HOLD. CONDITIONAL review may proceed only as a limited rollout with documented mitigation."
+  },
+  {
+    "id": "POL-INC-03",
+    "title": "Incident Gate",
+    "text": "An open severity-1 or severity-2 incident affecting the feature requires HOLD. Severity-3 incidents may proceed only when a tested workaround and rollback path exist."
+  },
+  {
+    "id": "POL-ROLLOUT-04",
+    "title": "Rollout Policy",
+    "text": "A feature that passes quality and Responsible AI gates but has unresolved medium-risk concerns should begin with a limited rollout of no more than 10 percent before broad expansion."
+  },
+  {
+    "id": "POL-OBS-05",
+    "title": "Runtime Observability",
+    "text": "Production AI releases require owner, rollback plan, runtime monitoring, and alert thresholds. Missing rollback or monitoring readiness requires HOLD."
+  }
+]

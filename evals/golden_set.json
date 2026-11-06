@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GOLD-001",
+    "feature": "campaign-copilot-v17",
+    "requested_rollout_pct": 100,
+    "expected_decision": "SHIP",
+    "required_tools": ["get_feature_status", "get_eval_result", "get_incident_status"],
+    "expected_failed_gate": null
+  },
+  {
+    "id": "GOLD-002",
+    "feature": "cx-agent-v9",
+    "requested_rollout_pct": 100,
+    "expected_decision": "LIMITED_ROLLOUT",
+    "required_tools": ["get_feature_status", "get_eval_result", "get_incident_status"],
+    "expected_failed_gate": null
+  },
+  {
+    "id": "GOLD-003",
+    "feature": "internal-dev-agent-v3",
+    "requested_rollout_pct": 25,
+    "expected_decision": "HOLD",
+    "required_tools": ["get_feature_status", "get_eval_result", "get_incident_status"],
+    "expected_failed_gate": "task_success"
+  }
+]

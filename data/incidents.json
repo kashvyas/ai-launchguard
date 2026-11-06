@@ -1,0 +1,7 @@
+{
+  "campaign-copilot-v17": [],
+  "cx-agent-v9": [
+    {"id": "INC-114", "severity": 3, "status": "OPEN", "workaround_ready": true}
+  ],
+  "internal-dev-agent-v3": []
+}
