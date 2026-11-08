@@ -46,7 +46,7 @@ class ReleaseAssistant:
 
     def _parse(self,question,features):
         direct=[f for f in features if f.lower() in question.lower()]
-        pct_match=re.search(r"(?<!\\d)(100|[1-9]?\\d)\\s*%",question)
+        pct_match=re.search(r"(?<!\d)(100|[1-9]?\d)\s*%",question)
         pct=int(pct_match.group(1)) if pct_match else None
         if len(direct)==1:
             return direct[0],(pct if pct is not None else 100)
