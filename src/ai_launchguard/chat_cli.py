@@ -14,5 +14,5 @@ def main():
             continue
         print("DECISION:",result["decision"],"| APPROVED:",str(result["approved_rollout_pct"])+"%")
         print("REASONS:","; ".join(result["reasons"]))
-        print("LLM ANALYSIS (advisory):",result["analysis"])
+        print("VERIFIED GUIDANCE:",result["analysis"])
 if __name__=="__main__":main()
